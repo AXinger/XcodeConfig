@@ -3,13 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>add_setupView</string>
+	<string>initView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setupView {
+	<string>- (instancetype)initWithFrame:(CGRect)frame{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self setupView];
+        [self setupConstrains];
+    }
+    return self;
+}
+
+- (void)setupView {
     
 }
 
@@ -21,7 +30,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>setupViewAndsetupConstrains~ax</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>axing:方法: view初始化方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
