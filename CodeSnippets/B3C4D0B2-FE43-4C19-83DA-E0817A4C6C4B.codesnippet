@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strongSelfCode</string>
+	<string>@pcrc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> __strong typeof(weakSelf) strongSelf = weakSelf;</string>
+	<string>@property(nonatomic, copy, readonly, class) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EB48433D-1B81-4968-8350-825B94CC345C</string>
+	<string>B3C4D0B2-FE43-4C19-83DA-E0817A4C6C4B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>宏 strongSelf</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>axinger: 方法:定义strongSelf</string>
+	<string> axinger: 属性  copy, readonly, class</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

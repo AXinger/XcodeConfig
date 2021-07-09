@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setupViewAndsetupConstrains~ax</string>
+	<string>add_setupView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -23,7 +23,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>setupViewAndsetupConstrains~ax</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化方法</string>
+	<string>axing:方法: view初始化方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
